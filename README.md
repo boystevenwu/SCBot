@@ -15,7 +15,7 @@ python >= 3.5
 import selenium
 import json
 ```
-操作系统：Windows 10 - 需自行下载 driver，macOS - brew cask install driver，Linux - 尚未试验\
+操作系统：Windows 10 - 需自行下载 driver，macOS - brew cask install $driver，Linux - 尚未试验\
 开源包未自带 Chromedriver，需自行下载或使用其他浏览器 driver\
 发现 Chromedriver 必须和 Chrome 版本本体匹配，需要在安装时检查一下
 

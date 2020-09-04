@@ -7,7 +7,7 @@ main.py 运行后将打开登录界面，后转至论坛第一页\
 程序通过预设的参数进行筛选，并会忽略已观看历史\
 观看超过阈值或者有蓝色大V回复则会持续打开\
 可以通过 addCard.py 添加这些 url 至历史中\
-结束运行时会跳转回论坛第一页
+结束运行时会跳转回论坛第一页，默认使用 Chrome
 
 # Usage
 ```python
@@ -15,8 +15,8 @@ python >= 3.5
 import selenium
 import json
 ```
-操作系统：Windows 10 - 需自行下载 driver，macOS - 需自行下载 driver，Linux - 尚未试验\
-开源包会自带 Chromedriver，可自行调整至新版本或其他浏览器 driver\
+操作系统：Windows 10 - 需自行下载 driver，macOS - brew cask install driver，Linux - 尚未试验\
+开源包未自带 Chromedriver，需自行下载或使用其他浏览器 driver\
 发现 Chromedriver 必须和 Chrome 本体匹配，需要在安装时检查一下
 
 

@@ -15,12 +15,13 @@ python >= 3.5
 import selenium
 import json
 ```
-操作系统：Windows 10 - 原生环境，macOS - 需自行下载driver，Linux - 尚未试验\
-开源包会自带 Chromedriver，可自行调整至新版本或其他浏览器driver
+操作系统：Windows 10 - 需自行下载 driver，macOS - 需自行下载 driver，Linux - 尚未试验\
+开源包会自带 Chromedriver，可自行调整至新版本或其他浏览器 driver\
+发现 Chromedriver 必须和 Chrome 本体匹配，需要在安装时检查一下
 
 
 # config.json
-在user_id处输入论坛用户名，在password处输入登录密码\
+在 user_id 处输入论坛用户名，在 password 处输入登录密码\
 \
 初始筛选机制参数由上到下分别为：\
 查询前两页的帖子\
